@@ -45,11 +45,23 @@ O sistema impede:
 ## Estrutura do Projeto
 
 ```text
-src
-├── model
-├── service
-├── exception
-└── Main.java
+medical-appointment-system/
+│
+├── src/
+│   ├── model/
+│   │   ├── Medico.java
+│   │   ├── Paciente.java
+│   │   └── Consulta.java
+│   │
+│   ├── service/
+│   │   └── ConsultaService.java
+│   │
+│   ├── exception/
+│   │   └── RegraNegocioException.java
+│   │
+│   └── Main.java
+│
+└── README.md
 ```
 
 ## Conceitos Demonstrados
